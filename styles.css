@@ -1,0 +1,144 @@
+@font-face {
+    font-family: norsebold;
+    src: url(Norse-Bold.otf);
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Left */
+
+.left {
+    background-image: url(background-picture.webp);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 35vw;
+}
+
+.odin {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#odin-word {
+    font-family: norsebold;
+    font-size: 8em;
+}
+
+h1 {
+    color: white;
+}
+
+#odin-logo {
+    height: 10vh;
+}
+
+/* Right */
+
+.right {
+    width: 65vw;    
+    background-color: #ffffff;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0 2vw;
+    gap: 3vw;
+}
+
+.top {
+    font-weight: 500;
+    width: 90%;
+    font-size: 2rem;
+    padding-left: 1vw;
+}
+
+.middle {
+    box-shadow: 0 10px 20px -2px gray;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 1vw;
+}
+
+.form-title {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 30em;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* opacity: 50%; */
+}
+
+input {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 25em;
+    height: 2em;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: darkgreen;
+    border: 3px solid darkgreen;
+}
+
+.form-class {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#log-in {
+    font-size: 1.5rem;
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+}
